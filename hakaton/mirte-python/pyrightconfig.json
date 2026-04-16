@@ -1,0 +1,31 @@
+{
+  "venvPath": ".",
+  "venv": ".venv",
+  "pythonVersion": "3.14",
+  "include": [
+    "app",
+    "mirte_robot",
+    "build"
+  ],
+  "exclude": [
+    "**/__pycache__",
+    "mirte_robot.egg-info",
+    "setup.py",
+    ".venv"
+  ],
+  "reportMissingImports": true,
+  "reportMissingModuleSource": false,
+  "reportMissingTypeStubs": false,
+  "reportUnknownMemberType": false,
+  "reportUnnecessaryCast": false,
+  "reportUnnecessaryIsInstance": true,
+  "reportArgumentType": true,
+  "reportReturnType": true,
+  "reportCallIssue": true,
+  "reportOptionalSubscript": true,
+  "reportOptionalMemberAccess": true,
+  "reportOptionalIterable": true,
+  "reportOptionalContextManager": true,
+  "reportOptionalOperand": true,
+  // "typeCheckingMode": "strict"
+}

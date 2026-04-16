@@ -1,0 +1,57 @@
+Metadata-Version: 2.4
+Name: mirte_robot
+Version: 0.1.0
+Summary: Python API for the Mirte Robot
+Home-page: https://github.com/mirte-robot/mirte-python
+Author: Martin Klomp
+Author-email: m.klomp@tudelft.nl
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: websocket_server
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# mirte-python-api
+
+This package provides the python API for the [MIRTE robot](https://mirte.org).
+Please read the [MIRTE documentation](https://docs.mirte.org/develop/doc/api/mirte_python_api.html) 
+for further documentation of this API.
+
+## Install
+
+```sh
+pip install .
+```
+
+## Checks
+
+To contribute to this repository the code needs to pass the python
+[style check](https://github.com/mirte-robot/mirte-python/blob/develop/.github/workflows/python-check.yml)
+
+To check this locally before you commit/push:
+```sh
+pip install black
+black --check .
+# Fix by using:
+black .
+```
+
+## License
+
+This work is licensed under a Apache-2.0 OSS license.
+
