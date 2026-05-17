@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.venv/
+venv/
+env/
+
+# Hackathon-day artifacts not for public history
+*.npy
+WhatsApp*.jpeg
+WhatsApp*.jpg
+
+# Captured frame dumps — full preview/ excluded; curated samples in docs/images/
+hakaton/preview/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
